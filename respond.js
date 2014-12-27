@@ -7,7 +7,6 @@ exports.success = success;
 exports.sendSuccess = sendSuccess;
 exports.error = {
 	custom: custom,
-	customSPrintF: customSPrintF,
 	socketNotAllowed: socketNotAllowed,
 	xhrNotAllowed: xhrNotAllowed,
 	notFound: notFound,
