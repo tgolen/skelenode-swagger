@@ -11,6 +11,7 @@ npm install skelenode-swagger
 var swr = require('skelenode-swagger/respond');
 
 // send a standard response from an express or restify route handler
+// `res` is an express or restify response object
 swr.respond({ msg: 'Hello World!' }, res);
 ```
 
@@ -24,6 +25,8 @@ The resulting response sent is always in the same form:
 ```
 
 ## Response Methods
+
+With all methods `res` is an express or restify response object
 
 ### success(result, res[, internalCode])
 Sends a 200 response with `result`.
