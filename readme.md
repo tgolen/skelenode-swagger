@@ -1,5 +1,5 @@
 # Skelenode Swagger
-This is a Skelenode component to provide common swagger utilities for standard responses and params. This can be used standalone with any swagger implementation.
+This is a [Skelenode](https://github.com/tgolen/skelenode) component to provide common swagger utilities for standard responses and params. This can be used standalone with any swagger implementation.
 
 # Installation
 ```
